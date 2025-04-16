@@ -74,7 +74,7 @@ Phoenix Sort shows competitive performance, especially in adaptive contexts. Fur
 ## 📦 Usage
 
 ```bash
-git clone https://github.com/yourusername/phoenix-sort.git
+git clone https://github.com/yasirpeker1212/phoenix-sort.git
 cd phoenix-sort
 python3 phoenix_sort.py
 ```
