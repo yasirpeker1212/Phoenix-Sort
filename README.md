@@ -41,10 +41,23 @@ Phoenix Sort performs efficiently on nearly sorted lists, but may slow down on h
 
 ---
 
+## 📊 Comparison with Other Sorting Algorithms
+
+| Algorithm        | Time Complexity (Avg) | Space | Stable | Adaptive | Notes |
+|------------------|------------------------|--------|--------|----------|-------|
+| **Phoenix Sort** | O(n log n × k)         | O(n)   | ✅     | ✅       | Rebirth of unsorted elements until sorted |
+| Stalin Sort      | O(n)                   | O(n)   | ✅     | ✅       | Discards non-increasing values (destructive) |
+| Quick Sort       | O(n log n)             | O(log n) | ❌   | ❌       | Fast but unstable, worst-case O(n²) |
+| Merge Sort       | O(n log n)             | O(n)   | ✅     | ❌       | Always stable and predictable |
+| Timsort          | O(n log n)             | O(n)   | ✅     | ✅       | Hybrid of merge/insertion; Python's default |
+| Gnome Sort       | O(n²)                  | O(1)   | ✅     | ✅       | Simple, step-by-step swaps |
+
+---
+
 ## 📦 Usage
 
 ```bash
-git clone https://github.com/yasirpeker1212/phoenix-sort.git
+git clone https://github.com/yourusername/phoenix-sort.git
 cd phoenix-sort
 python3 phoenix_sort.py
 ```
