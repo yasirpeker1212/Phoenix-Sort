@@ -5,7 +5,7 @@ Instead of deleting unsorted elements, it lets them **rise from the ashes** and 
 
 > ✨ It's not just sorting — it's reincarnation.
 
-![Phoenix Sort Banner](https://raw.githubusercontent.com/yourusername/phoenix-sort/main/banner.png)
+![Phoenix Sort Banner](https://raw.githubusercontent.com/yasirpeker1212/phoenix-sort/main/banner.png)
 
 ---
 
