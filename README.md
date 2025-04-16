@@ -44,7 +44,7 @@ Phoenix Sort performs efficiently on nearly sorted lists, but may slow down on h
 ## 📦 Usage
 
 ```bash
-git clone https://github.com/yourusername/phoenix-sort.git
+git clone https://github.com/yasirpeker1212/phoenix-sort.git
 cd phoenix-sort
 python3 phoenix_sort.py
 ```
