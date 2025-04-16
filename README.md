@@ -27,9 +27,70 @@ Phoenix Sort works in cycles:
 
 ---
 
+## ⏱ Time Complexity
+
+| Case        | Time Complexity      |
+|-------------|----------------------|
+| Best Case   | O(n log n)           |
+| Average     | O(n log n × k)       |
+| Worst Case  | O(n² log n)          |
+
+Where `k` is the number of passes needed to completely rebirth all elements.
+
+Phoenix Sort performs efficiently on nearly sorted lists, but may slow down on highly shuffled input.
+
+---
+
 ## 📦 Usage
 
 ```bash
 git clone https://github.com/yourusername/phoenix-sort.git
 cd phoenix-sort
 python3 phoenix_sort.py
+```
+
+You’ll see the original and sorted list printed with time taken.
+
+---
+
+## 📈 Example
+
+```python
+data = [5, 1, 4, 2, 6, 0, 7]
+sorted_data, history = phoenix_sort_optimized(data)
+print(sorted_data)  # [0, 1, 2, 4, 5, 6, 7]
+```
+
+---
+
+## 🛠️ Future Plans
+
+- [ ] Add unit tests
+- [ ] Compare performance with Quick Sort, Merge Sort, and Timsort
+- [ ] Interactive visualizer (optional)
+- [ ] C / Rust version for fun
+- [ ] Jupyter Notebook demo
+- [ ] WebAssembly playground
+
+---
+
+## 🐣 Why the name?
+
+Like the mythical Phoenix, this algorithm revives elements that fall out of order and gives them new life — again and again — until balance is achieved.
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork, star, and submit PRs if you have ideas to improve the algorithm or explore new optimization strategies.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+🪶 *Let your data rise from the ashes.*  
+— *The Phoenix*
