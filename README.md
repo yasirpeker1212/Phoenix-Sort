@@ -93,6 +93,13 @@ print(sorted_data)  # [0, 1, 2, 4, 5, 6, 7]
 
 ---
 
+## 👀 More Detailed Benchmark
+```python
+cd phoenix-sort
+python3 benchmark.py
+```
+---
+
 ## 🛠️ Future Plans
 
 - [ ] Add unit tests
